@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url("../images/backcover.svg");
+    background-repeat: no-repeat;
+    background-size: 1250px;
+    background-position-x: 680px;
+    background-position-y: -150px;
+}
+
+.main-div {
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+
+}
+
+.nav-items {
+    display: flex;
+    gap: 3rem;
+    font-family: Poppins, sans-serif;
+
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3e4794;
+}
+
+.signin-btn {
+    border: none;
+    background: linear-gradient(90deg, #965cf2, #ff8adc);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: .2rem 1rem;
+    border-radius: 50px;
+}
+
+.intro-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 70vh;
+}
+
+.left-section h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 84px;
+    letter-spacing: -1px;
+    color: #3e4794;
+    margin-top: 12rem;
+    margin-bottom: 4rem;
+}
+
+.left-section h4 {
+    font-family: Roboto, serif;
+    font-weight: 200;
+    font-size: 20px;
+    padding-right: 20rem;
+    color: #3e4794;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+}
+
+.learn-more-btn {
+    border: none;
+    background: linear-gradient(90deg, #965cf2, #ff8adc);
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+}
+
+.right-main-img {
+    position: absolute;
+    height: 1000px;
+    top: 100px;
+    left: 520px;
+}
+
+.vector-dot {
+    position: absolute;
+    width: 26px;
+    bottom: -20px;
+    left: 600px;
+}
+
+.vector-img {
+    width: 130px;
+    position: absolute;
+    bottom: -140px;
+    left: 520px;
+}
