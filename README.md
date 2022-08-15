@@ -1,4 +1,4 @@
-# HTML-CSS-MiniProject-07
+# HTML-CSS-MiniProject-08
 ## About Project
 Practiced positioning alot with this project. Tried making it as picture perfect as possible:
 
